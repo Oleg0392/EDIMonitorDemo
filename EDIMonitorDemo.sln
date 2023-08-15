@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDIMonitorDemoCore", "EDIMonitorDemo-Core\EDIMonitorDemoCore.csproj", "{F13B834F-AA4D-4D15-85A1-D4BB7DB3EFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDIMonitorDemoData", "EDIDemo-SentDocs\EDIMonitorDemoData.csproj", "{F8552DB0-F3F5-46A9-B99B-D51EDAFB74D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13B834F-AA4D-4D15-85A1-D4BB7DB3EFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13B834F-AA4D-4D15-85A1-D4BB7DB3EFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13B834F-AA4D-4D15-85A1-D4BB7DB3EFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13B834F-AA4D-4D15-85A1-D4BB7DB3EFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8552DB0-F3F5-46A9-B99B-D51EDAFB74D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8552DB0-F3F5-46A9-B99B-D51EDAFB74D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8552DB0-F3F5-46A9-B99B-D51EDAFB74D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8552DB0-F3F5-46A9-B99B-D51EDAFB74D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A949B1DC-FDFB-44DD-9AB4-452FC3F6EDCC}
+	EndGlobalSection
+EndGlobal
