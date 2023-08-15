@@ -7,10 +7,12 @@ namespace EDIMonitorDemoCore.Controllers
     public class SentdocController : Controller
     {
         private readonly ISentDocRepository _repository;
+        private readonly ILogger<SentdocController> _logger;
 
-        public SentdocController(ISentDocRepository repository)
+        public SentdocController(ISentDocRepository repository, ILogger<SentdocController> logger)
         {
             _repository = repository;
+            _logger = logger;
         }
 
         [HttpGet]

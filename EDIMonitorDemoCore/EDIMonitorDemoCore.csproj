@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EDIDemo-SentDocs\EDIMonitorDemoData.csproj" />
+    <ProjectReference Include="..\EDIMonitorDemoData\EDIMonitorDemoData.csproj" />
   </ItemGroup>
 
 </Project>
