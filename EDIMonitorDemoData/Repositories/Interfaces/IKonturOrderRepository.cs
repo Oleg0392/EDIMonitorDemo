@@ -9,6 +9,7 @@ namespace EDIMonitorDemoData.Repositories.Interfaces
         KonturOrder[] LoadArchive();
         KonturOrder[] LoadFromCH();
         KonturOrder[] LoadInbox();
+        KonturOrder[] LoadInboxTest();
         KonturOrder[] LoadToCH();
     }
 }

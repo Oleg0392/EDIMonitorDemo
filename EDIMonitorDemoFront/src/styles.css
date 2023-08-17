@@ -4,9 +4,9 @@ body {
 }
 
 .topnav {
-    overflow: hidden;
     background-color: #eee9ee;
     color: rgb(100, 32, 66);
+    width: auto;
     padding: 14px 14px;
     text-decoration: none;
     font-size: 35px;
@@ -29,14 +29,14 @@ body {
 
 .navmenu {
 	--menu-width: 260px;
-    height: 100%;
+    height:200%;
+    position:absolute;
     width: var(--menu-width); 
-    position: fixed; 
     z-index: 1; 
     top: auto; 
     left: 0;
     /*background-color: rgb(82, 3, 82); */
-    background: linear-gradient(to bottom left, rgb(82, 3, 82), rgb(201, 73, 233));
+    background: linear-gradient(to bottom, rgb(82, 3, 82),rgb(192, 108, 192) ,rgb(255, 255, 255));
     overflow-x: hidden; 
     padding-top: 20px;
 }

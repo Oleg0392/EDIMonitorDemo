@@ -1,0 +1,14 @@
+<table id="orders">
+    <tr>
+        <th>Имя файла</th>
+        <th>Номер заказа</th>
+        <th>Дата заказа</th>
+        <th>Покупатель</th>
+    </tr>
+    <tr *ngFor="let order of orders">
+        <td id="flnm">{{ order.fileName }}</td>
+        <td>{{ order.orderNumber }}</td>
+        <td>{{ order.orderDate }}</td>
+        <td>{{ order.buyerName }}</td>
+    </tr>
+</table>

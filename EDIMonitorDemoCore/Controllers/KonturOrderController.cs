@@ -22,6 +22,13 @@ namespace EDIMonitorDemoCore.Controllers
         }
 
         [HttpGet]
+        [Route("kontur/inbox-test")]
+        public JsonResult InboxTest()
+        {
+            return Json(_repository.LoadInboxTest());
+        }
+
+        [HttpGet]
         [Route("kontur/fromch")]
         public JsonResult FromCH()
         {

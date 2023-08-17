@@ -17,6 +17,7 @@ namespace EDIMonitorDemoCore
 
             builder.Services.AddControllers();
             builder.Services.AddCustomDbContext(builder.Configuration);
+            builder.Services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 
             var app = builder.Build();
 
@@ -27,6 +28,7 @@ namespace EDIMonitorDemoCore
 
             app.MapControllers();
             app.UseRouting();
+            app.UseCors("AllowAll");
 
             app.Run();
         }
